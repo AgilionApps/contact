@@ -1,0 +1,13 @@
+<section id="contacts">
+  <% @contacts.each do |contact| %>
+    <div class="contact row">
+      <div class="span3">
+        <h1><%= contact.full_name %></h1>
+        <div class="interest"><span class="label success"><%= contact.interest %></span></div>
+      </div>
+      <div class="span12">
+        <p><%= contact.message %></p>
+      </div>
+    </div>
+  <% end %>
+</div>

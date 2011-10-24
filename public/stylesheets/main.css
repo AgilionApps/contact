@@ -1,0 +1,9 @@
+section#contacts {
+  margin-top:40px;
+}
+
+div.contact {
+  margin-bottom:20px;
+  border-bottom:solid 1px #e1e1e1;
+  padding-bottom:20px;
+}

@@ -1,0 +1,93 @@
+div.container {
+  width:600px;
+  margin:0;
+}
+
+div.status {
+  font-family:"adobe-garamond-pro", "garamond", "Times New Roman";
+  color:black;
+  margin-bottom:20px;
+}
+
+form div.first_name {
+  float:left;
+  width:40%;
+  margin-right:15px;
+}
+
+form div.last_name {
+  float:left;
+  width:57%;
+}
+
+form label.error {
+  position:absolute;
+  margin-top:5px;
+  display:block;
+}
+
+form div.field {
+  font-family:"adobe-garamond-pro", "garamond", "Times New Roman";
+  margin-bottom:40px;
+}
+
+form div.field select {
+  width:100%;
+  padding:4px;
+}
+
+form div.field input {
+  padding:4px;
+}
+
+form div.field input[type="text"] {
+  font-family:"adobe-garamond-pro", "garamond", "Times New Roman";
+  font-size:18px;
+  color:#bebebe;
+  width:99%;
+  border:solid 1px #bebebe;
+}
+
+form div.field input[type="submit"] {
+  font-family:adelle, serif;
+  font-weight:bold;
+  color:white;
+  background:#4cbb6d;
+  border:solid 1px #1e8036;
+  padding:8px 50px 5px 50px;
+  -moz-box-shadow:inset 0 1px 0 #73db93;
+  -webkit-box-shadow:inset 0 1px 0 #73db93;
+  -o-box-shadow:inset 0 1px 0 #73db93;
+  box-shadow:inset 0 1px 0 #73db93;
+  -moz-text-shadow:1px 1px 1px #1e8036;
+  -webkit-text-shadow:1px 1px 1px #1e8036;
+  text-shadow:1px 1px 1px #1e8036;
+  -moz-border-radius:2px;
+  -webkit-border-radius:2px;
+  border-radius:2px;
+  font-size:18px;
+}
+
+form div.field input[type="submit"]:active {
+  background:#1e8036;
+  border:1px solid black;
+  -moz-box-shadow:inset 0 1px 0 #146d2d;
+  -webkit-box-shadow:inset 0 1px 0 #146d2d;
+  -o-box-shadow:inset 0 1px 0 #146d2d;
+  box-shadow:inset 0 1px 0 #146d2d;
+}
+
+form div.field textarea {
+  font-family:"adobe-garamond-pro", "garamond", "Times New Roman";
+  font-size:18px;
+  color:#bebebe;
+  padding:4px;
+  width:99%;
+  height:165px;
+  border:solid 1px #bebebe;
+  resize:none;
+}
+
+form div.field label {
+  margin-bottom:5px;
+}

@@ -1,0 +1,12 @@
+# About
+Simple contact form that works with [Elastic Email](http://elasticemail.com) and saves contact information to [MongoDB](http://www.mongodb.org).
+
+## Usage
+- `git clone git@github.com:agilionapps/contact.git`
+- configure `_config.yml`
+- deploy application ([heroku](http://www.heroku.com) works well)
+- embed the contact form in an iframe
+
+```html
+<iframe src="http://freezing-storm-ice1256.heroku.com/form" height="500px" width="100%"><p>Your browser sucks</p></iframe>
+```
