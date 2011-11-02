@@ -23,7 +23,6 @@ end
 post '/send' do
 
   response['X-Frame-Options'] = 'DOIT'
-  response['Access-Control-Allow-Origin'] = settings.mail['domain']
 
   @contact = Contact.new(params)
   @contact.save
@@ -35,5 +34,5 @@ post '/send' do
     :from_name => "#{@contact.full_name}",
     :to        => settings.mail['to'],
     :subject   => @contact.interest,
-    :body_html => @contact.message,
+    :body_html => @contact.message
 end
