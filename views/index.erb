@@ -2,7 +2,7 @@
   <% @contacts.each do |contact| %>
     <div class="contact row">
       <div class="span3">
-        <h1><%= contact.full_name %></h1>
+        <h1><a href="mailto:<%= contact.email_address %>"><%= contact.full_name %></a></h1>
         <div class="interest"><span class="label success"><%= contact.interest %></span></div>
       </div>
       <div class="span12">
