@@ -1,3 +1,7 @@
+h1 {
+  text-transform:capitalize;
+}
+
 section#contacts {
   margin-top:40px;
 }
