@@ -1,5 +1,12 @@
 h1 {
   text-transform:capitalize;
+  margin-bottom:0px;
+}
+
+a.email {
+  padding-bottom:10px;
+  display:block;
+  text-transform:lowercase;
 }
 
 section#contacts {
